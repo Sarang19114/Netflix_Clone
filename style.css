@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    height: 660px;
+    background-image: url(header-image.png);
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 120px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav button {
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.cont {
+    text-align: center;
+    margin-top: 230px;
+    color: white;
+}
+
+.sign-up {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.in {
+    height: 45px;
+    background-color: black;
+    color: white;
+    opacity: 0.74;
+    font-size: 18px;
+    padding-left: 10px;
+    width: 450px;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+.get {
+    background-color: red;
+    color: white;
+    height: 48px;
+    width: 200px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.sep {
+    height: 10px;
+    background-color: rgb(46, 44, 44);    
+}
+
+.fs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 540px;
+}
+
+.fe {
+    width: 600px;
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 30px; 
+    font-weight: lighter;
+}
+
+.fsd {
+    height: 830px;
+    text-align: center;
+}
+
+.fsd-b {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    height: 85px;
+    width: 85%;
+    background-color: rgb(46, 44, 44);
+    margin-top: 10px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.box h2 {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 27px;
+}
+
+.fi {
+    margin-top: 50px;
+}
+
+footer {
+    height: 300px;
+    background-color: #000;
+    color: #a39f9f;
+}
+
+footer pre {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.lis {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    margin-top: 13px;
+}
